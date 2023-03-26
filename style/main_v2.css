@@ -352,6 +352,9 @@ body::after {
   #home > .container > .home_title {
     font-size: 60px;
   }
+  #home > .container > .home_subtitle {
+    font-size: 24px;
+  }
   #home > .container {
     padding: 0;
   }
