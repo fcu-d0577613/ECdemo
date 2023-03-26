@@ -234,6 +234,10 @@ body::after {
 .header .nav li {
   margin: 0 20px;
 }
+.header .nav a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .navbarlink {
   text-decoration: none;
@@ -612,7 +616,7 @@ body::after {
   .fxleft {
     width: 100%;
     justify-content: center;
-    padding: 200px 0 38px 0;
+    padding: 300px 0 38px 0;
   }
   .fxright {
     width: 100%;
@@ -641,7 +645,8 @@ body::after {
     width: 200px;
   }
   .fxrightin .fxcontent {
-    padding: 0 50px;
+    margin: 0 auto;
+    text-align: left;
   }
 }
 @media screen and (max-width: 900px) {

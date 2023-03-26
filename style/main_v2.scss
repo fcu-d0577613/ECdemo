@@ -278,6 +278,10 @@ body{
     li{
         margin: 0 20px;
     }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
 }
 .navbarlink{
     text-decoration: none; 
@@ -630,7 +634,6 @@ body{
 
         max-width: 100%;
         padding-left: 0px;
-  
     }
 }
 
@@ -668,7 +671,7 @@ body{
         .fxleft{
             width: 100%;
             justify-content: center;
-            padding: 200px 0 38px 0;
+            padding: 300px 0 38px 0;
         }
         .fxright{
             width: 100%;
@@ -699,7 +702,9 @@ body{
             width: 200px;
         }
         .fxrightin .fxcontent {
-            padding: 0 50px;
+            // padding: 0 50px;
+            margin: 0 auto;
+            text-align: left;
         }
         
 }
